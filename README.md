@@ -1,3 +1,4 @@
+```
 	  __   __	     _ 	 
 _________/ /\ /	/\__________/ /\_______________________________________________
 _ _     / /_// / /     	   / / / _ _ _ 	       	 
@@ -11,13 +12,17 @@ _ _     / /_// / /     	   / / / _ _ _
       		 /_/_/ /_/_/ /___\_\ /_/_/ /_/\_\   \_\\/ /___/_/ /_/\\/ 2.0
        	       	       _ _ _ _ 	       	_ _ _  	       _ _ _   	       	
        	       	       	       	       	   _ _ _ 
+```
 
 
-AITTAHAR Mounir/Downwater (c) 2002 
+AITTAHAR Mounir/Downwater (c) 2002
+
 Released Sunday, March 25th at 23:00
 
+[![Build Status](https://travis-ci.org/cpcsdk/hideur_maikeur.svg?branch=master)](https://travis-ci.org/cpcsdk/hideur_maikeur)
 
 What's New ?
+============
 
 - source code entirely rewriten (cleaner code)
 - conform to c-ansi rules 
@@ -28,25 +33,24 @@ What's New ?
 
 See INSTALL for compiling instructions.
 
-I.   SYNOPSIS
-II.  USE
-III. OPTIONS
-IV.  GREETINGS ;)
-
-
--------------------------------------------------------------------------------
 I. SYNOPSIS
--------------------------------------------------------------------------------
+===========
 
-Conversion : hideur fichierDos -o fichierAms [-u user] [-t type]
-                               [-x adrexe] [-l adrload] [-v]
-Info :       hideur -info fichier
-Help :       hideur -h
+Conversion:
+
+    hideur fichierDos -o fichierAms [-u user] [-t type] [-x adrexe] [-l adrload] [-v]
+
+Info:
+
+    hideur -info fichier
+
+Help:
+
+    hideur -h
 
 
--------------------------------------------------------------------------------
 II. DESCRIPTION
--------------------------------------------------------------------------------
+===============
 
  Have you ever used a cross assembler for Z80 system ? Or one of
 picture converter like Graphics Wizard ? When you want to load them with
@@ -65,25 +69,24 @@ util. The syntax looks like a famous GNU C compiler :).
  Hideur Maikeur uses ansi codes in verbose mode. If you are under MS-DOS
 or Windows, you should add this line in your file C:\CONFIG.SYS :
 
-DEVICEHIGH=C:\WINDOWS\COMMAND\Ansi.sys
+    DEVICEHIGH=C:\WINDOWS\COMMAND\Ansi.sys
 
- If C:\WINDOWS\COMMAND\ is the path of the file ansi.sys. Then, reboot :(.
- 
+If C:\WINDOWS\COMMAND\ is the path of the file ansi.sys. Then, reboot :(.
 
--------------------------------------------------------------------------------
+
 III. OPTIONS
--------------------------------------------------------------------------------
+============
 
  Hideur Maikeur has the following options.
 
 * DosFile     The dos file you want to convert
-
 * -o AmsFile  The amsdos file you want to get
 * -u user     user of the amsdos file(0-255)
-* -t type     file type  0 : Basic
-                         1 : Protected Basic
-                         2 : Binary
-                         3 : Protected Binary
+* -t type     file type
+  - 0 : Basic
+  - 1 : Protected Basic
+  - 2 : Binary
+  - 3 : Protected Binary
 * -x adrexe     : address of execution
 * -l adrload    : address of loading
 
@@ -91,9 +94,8 @@ III. OPTIONS
  Well the options describe themselves better than I could, no ? :) 
 
 
--------------------------------------------------------------------------------
 IV. GREETINGS :)
--------------------------------------------------------------------------------
+================
 
 Thanks to
 
@@ -106,5 +108,3 @@ Thanks to
  I apologize if there were some (or many) fault language, english isn't my
 mother tongue...
 
-Send bug reports at <downwater@free.fr>
-Website : http://downwater.free.fr
