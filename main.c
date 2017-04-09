@@ -17,7 +17,8 @@
 
 #include <stdio.h>
 #include <ctype.h>
-#include<stdlib.h>
+#include <stdlib.h>
+#include <string.h>
 #include "header.h"
 #include "messages.h"
 #include "debug.h"
