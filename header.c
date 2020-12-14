@@ -52,11 +52,14 @@ void getNomFichAms(char *nomFichAms,char *pathFichAms)
   /* copie et vérification du nom du ficher amdos */
   if (strlen(pathFichAms)>12)
     {printf(ERR10);exit(1);}
-  
-  while(*pathFichAms && *pathFichAms!='.' && a<8) 
-    *(nomFichAms+a++)=*pathFichAms++;
-  
-  if(a>=8 && *pathFichAms=='.') {printf(ERR11);exit(1);}
+
+  while(*pathFichAms && *pathFichAms!='.' && a < 8)
+    *(nomFichAms + a++) = *pathFichAms++;
+
+  if(a > 8 && *pathFichAms=='.') {
+    printf(ERR11);
+    exit(1);
+  }
 
   /* copie de l'extension si elle existe*/
   if (*pathFichAms=='.')
