@@ -40,4 +40,5 @@ superclean :
 idiot :
 	@echo Agaaaa...gagaga.
 
-
+release: hideur
+	7z a hideur.7z ALIRE README.md hideur*
