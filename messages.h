@@ -50,7 +50,7 @@
 #define MESS4 "Taille : &%xo.\n"
 #define MESS5 "Adresse de chargement : &%x.\n"
 #define MESS6 "Adresse d'ex‚cution : &%x.\n"
-#define MESS7 "Somme de v‚rification : &%x.\n"
+#define MESS7 "Somme de v‚rification : &%04x.\n"
 #define MESS8 "%s : n'est pas un en-tˆte valide.\n"\
 "La somme lu est &%x mais la somme r‚elle vaut &%x.\n"
 
@@ -98,7 +98,7 @@
 #define MESS4 "Taille : &%xo.\n"
 #define MESS5 "Adresse de chargement : &%x.\n"
 #define MESS6 "Adresse d'exécution : &%x.\n"
-#define MESS7 "Somme de vérification : &%x.\n"
+#define MESS7 "Somme de vérification : &%04x.\n"
 #define MESS8 "%s : n'est pas un en-tête valide.\n"\
 "La somme lu est &%x mais la somme réelle vaut &%x.\n"
 
@@ -146,10 +146,10 @@
 #define MESS1 "User : %d.\n"
 #define MESS2 "Name : %s.\n"
 #define MESS3 "Type : %d.\n"
-#define MESS4 "Size : &%xb.\n"
+#define MESS4 "Size : &%x bytes.\n"
 #define MESS5 "Address of loading : &%x.\n"
 #define MESS6 "Address of execution : &%x.\n"  
-#define MESS7 "Checksum : &%x.\n"
+#define MESS7 "Checksum : &%04x.\n"
 #define MESS8 "%s : invalid amsdos file.\n"\
 "Read checksum is &%x but the real checksum is &%x.\n"
 
